@@ -3,6 +3,22 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    /**************** Partie Header et Recherche *******************/
+    .header {
+        margin-bottom: 2em;
+    }
+    .filtre {
+       width: 300%;
+       margin-top: 1em;  
+    }
+
+    .bouton-filtre {
+        margin-left: 0em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        margin-top: 1px;
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -14,6 +30,7 @@
     .populaires {
         width: 100%;
         margin-top: 50px;
+
     }
 
     .populaires-cards {
@@ -39,6 +56,7 @@
     .activites-cards div {
         width: 13em;
         height: 17em;
+
     }
 
     .activites-cards img {
