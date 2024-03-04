@@ -67,7 +67,6 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-
 }
 
 .header-style:hover {
@@ -78,12 +77,12 @@ a {
 }
 
 .logo img {
-    width: 61.09px;
-    height: 19px;
+    width: 60px;
+    height: 20px;
 }
 
 .logo {
-    margin-top: auto;
+    margin-top: 15px;
     margin-bottom: auto;
 }
 
@@ -94,7 +93,7 @@ a {
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-
+    position: relative;
 }
 
 .barre-recherche {
@@ -125,6 +124,11 @@ a {
     
 }
 
+.bouton-loupe {
+    visibility: hidden;
+    overflow: hidden;
+}
+
 /***** Filtre *****/
 
 
@@ -145,13 +149,14 @@ button:hover {
 
 /**************** Image information (I) **********************/
 
-.info {
-    border-style: solid;
-    border-color: #d9d9d9;
-    border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
-    padding: 8px;
-    align-items: center;
-    border-width: 2px;
+.info span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
 }
 
 
@@ -376,102 +381,3 @@ button:hover {
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-
-.main-container {
-    width: 100%;
-    max-width: 767.98px;
-    padding:  0px;
-        
-}    
-/*********** Header ****************/
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-}
-
-.header ul {
-
-    display: flex;
-    flex-direction:row ;
-    align-items: flex-start;
-    
-}
-
-.header-style:hover {
-    color: #0065FC;
-    border-bottom: 2px #0065FC solid;
-    padding-bottom: 2px;
-    border-top: none;
-
-}
-
-.logo {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-/***************Carte hébergements *************************/
-
-
-
-
-
-/**************** Carte Activités Responsive ****************/
-
-
-.activites-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.activites-cards div {
-    width: 20em; 
-    height: 10em; 
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #ffffff; 
-    border-radius: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    overflow: hidden;
-    padding-bottom: none;
-}
-
-.activites-cards a {
-    display: block;
-    height: 100%; 
-}
-
-.activites-cards img {
-    width: 100%;
-    height: 70%; 
-    object-fit: cover; 
-}
-
-.activites-cards .card-title {
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 13px;
-}
-
-/********** Footer *****************/
-
-.footer {
-    display:flex;
-    flex-direction: column;
-    background-color: var(--main-bg-color);
-    width: 100%;
-    position: absolute;
-}
-
-
-}
