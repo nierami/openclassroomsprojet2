@@ -97,31 +97,42 @@ a {
 }
 
 .barre-recherche {
-    padding: 14px;
+    border-radius: 20px;
     border-width: 0px;
+    border: #F2F2F2 solid 1px;
     color: black;
-
+    margin-top: 1em;
+    margin-left: -50px;
+    padding: 17px;
+    padding-right: 6em;
+    padding-left: 4em;
 }
 
 .bouton-recherche {
+    position: relative;
+    right: 5em;
+    bottom: 1px;
     color: white;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
-    padding: 16px;
-    font-size: 13px;
     border-color:#0065FC ;
     border-style: hidden;
     font-weight: 700;
-    margin-top: 1em;
-
+    font-size: 13px;
+    padding: 17px;
+    padding-top: 18px;
+    padding-bottom: 19px;
 }
 
-.position {
+.position  {
+    position: relative;
+    left:-3px;
     color: black;
     background-color: rgba(242, 242, 242, 1);
-    border-radius: 10px;
-    padding: 18px;
-    
+    border-radius: 20px 0px 0px 20px;
+    padding: 17px;
+    padding-top: 17px;
+    padding-bottom: 19px;
 }
 
 .bouton-loupe {
